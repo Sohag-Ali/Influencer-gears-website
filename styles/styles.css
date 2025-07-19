@@ -72,6 +72,7 @@ nav {
     padding: 10px 24px;
     color: white;
     margin-bottom: 0px;
+    font-weight: 500;
 }
 .btn-primary i{
     margin-left: 8px;
@@ -117,5 +118,39 @@ nav {
     .nav-link-item a {
         font-size: 0.9rem;
     }
-    
+
+
+
+    .banner {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 14px;
+
+}
+.banner-content {
+    margin-top: 14px;
+    margin-left: 22px;
+    margin-right: 22px;
+    max-width: 404px;
+    text-align: center;
+}
+.banner-title {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+.banner-description {
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+}
+
+.banner-image {
+    text-align: center;
+    margin-top: 22px;
+    margin-right: 52px;
+    margin-left: 52px;
+    padding: 51px 33px 16px 22px;
+   max-width: 275px;
+}
+ 
 }
