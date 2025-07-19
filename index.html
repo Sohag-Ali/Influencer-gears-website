@@ -1,7 +1,52 @@
-echo "# Influencer-gears-website" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Sohag-Ali/Influencer-gears-website.git
-git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Influcencer Gears</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="display-flex">
+        <div class="logo">
+          <h2 class="logo-titile">Influencer products</h2>
+        </div>
+        <div class="nav-link">
+          <ul class="nav-link-item display-flex">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Sign up</a></li>
+            <li><a href="">Log In</a></li>
+            <li>
+              <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-cart-shopping"></i></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="banner display-flex">
+        <div class="banner-content">
+          <h1 class="banner-title primary-color">Start your Journey as Influencer</h1>
+          <p class="banner-description primary-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
+          <button class="btn-primary">Preebook now   <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="banner-image">
+            <img src="./images/main-camera.png" alt="">
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
