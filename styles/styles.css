@@ -79,7 +79,6 @@ nav {
     
 }
 
-
 .banner-image {
         background-image: url('../images/Circle design.svg');
     background-repeat: no-repeat;
@@ -94,6 +93,20 @@ nav {
  max-width: 100%;
 }
 
+
+.sponser-section {
+    margin: 69px 165px 100px 165px;
+}
+.sponser {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+.sponser img {
+    max-width: 100%;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -152,5 +165,21 @@ nav {
     padding: 51px 33px 16px 22px;
    max-width: 275px;
 }
+
+
+.sponser-section {
+    margin: 50px 42px
+}
+.sponser {
+   display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
  
+}
+
+
+.hide{
+    display: none;
 }
