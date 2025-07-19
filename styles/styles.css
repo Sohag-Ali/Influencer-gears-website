@@ -161,7 +161,7 @@ nav {
     max-width: 196px;
 }
 .se {
-    text-align: right;
+    /* text-align: center; */
     margin-top: 50px;
     max-width: 1047px;
 }
