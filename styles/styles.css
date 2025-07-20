@@ -17,9 +17,7 @@ body {
     display: flex;
 }
 
-/* .display-flex > * {
-    flex: 1;
-} */
+
 
 /* ............navbar section styles........ */
 nav {
@@ -27,7 +25,12 @@ nav {
     justify-content: space-between;
     gap: 100px;
 }
-
+.Hamburger-icon {
+    display: none;
+}
+.cart-icon {
+    display: none;
+}
 .logo-titile {
     font-size: 1.25rem;
     font-weight: bold;
@@ -260,23 +263,35 @@ footer {
     /* .......navbar styles for mobile device............. */
     nav {
         margin: 0px 16px;
-        flex-direction: column;
-        align-items: center;
+        /* flex-direction: column; */
+        /* align-items: center; */
+        justify-content: space-between;
+    
         gap: 2px;
     }
     
+    .Hamburger-icon {
+        display: flex;
+        margin-top: 35px;
+    }
     .logo-titile {
         margin-top: 35px;
         font-size: 1.5rem;
     }
-    
-    .nav-link-item {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+    .nav-link {
+        display: none;
     }
-    
-    .nav-link-item a {
+    .nav-link-item {
+        /* flex-direction: column;
+        align-items: center;
+        gap: 10px; */
+        display: none;
+    }
+    .cart-icon {
+        display: flex;
+        margin-top: 35px;
+    }
+    .nav-link-item, .nav-link-item a {
         font-size: 0.9rem;
     }
 
