@@ -207,7 +207,35 @@ nav {
     margin-bottom: 0px;
     font-weight: 500;
 }
+.btn-secondary i{
+    margin-left: 8px;
+    
+}
+footer {
+  background-color: #0B0623;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.footer-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.footer-item p{
+    color: #BFBFBF;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
 
+}
+.icon-socal i{
+    color: white;
+    margin-left: 16px;
+    margin-top: 6px;
+
+}
 
 @media screen and (max-width: 576px) {
     nav {
