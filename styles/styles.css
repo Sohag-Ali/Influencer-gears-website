@@ -1,3 +1,4 @@
+/* .......universal css styles...... */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 
 .primary-color {
     color: #3A3A3A;
@@ -19,6 +21,7 @@ body {
     flex: 1;
 } */
 
+/* ............navbar section styles........ */
 nav {
     margin: 0px 120px;
     justify-content: space-between;
@@ -48,6 +51,8 @@ nav {
     font-size: 1rem;
 }
 
+
+/* ..........banner section styles.......... */
 
 .banner {
     justify-content: space-between;
@@ -97,7 +102,7 @@ nav {
  max-width: 100%;
 }
 
-
+/* .............sponser section part styless.......... */
 .sponser-section {
     margin: 69px 165px 100px 165px;
 }
@@ -171,6 +176,8 @@ nav {
 
 }
 
+/* ............ feature product section styles............. */
+
 .feature-product {
     margin: 0px 165px;
     display: flex;
@@ -211,6 +218,8 @@ nav {
     margin-left: 8px;
     
 }
+
+/* .................foooter section styles............ */
 footer {
   background-color: #0B0623;
     text-align: center;
@@ -238,6 +247,7 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+    /* .......navbar styles for mobile device............. */
     nav {
         margin: 0px 16px;
         flex-direction: column;
@@ -260,7 +270,7 @@ footer {
         font-size: 0.9rem;
     }
 
-
+/* ................banner styles for mobile device ............ */
 
     .banner {
     justify-content: center;
@@ -294,6 +304,7 @@ footer {
    max-width: 275px;
 }
 
+/* ....sponser styles for mobile device .......... */
 
 .sponser-section {
     margin: 50px 42px
@@ -305,6 +316,8 @@ footer {
     flex-wrap: wrap;
 }
 
+
+/* ........popular collection styles for mobile device ............ */
 .popular-colection-title {
     font-size: 1rem;
     margin-bottom: 20px;
@@ -324,6 +337,7 @@ footer {
     /* padding: 17px 15px;   */
 }
 
+/* ........feature product styles for mobiles........... */
 .feature-product {
     margin: 0px auto;
     display: flex;
@@ -338,9 +352,4 @@ footer {
     font-size: 1.5rem;
 }
  
-}
-
-
-.hide{
-    display: none;
 }
